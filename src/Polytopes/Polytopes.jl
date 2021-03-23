@@ -6,6 +6,7 @@ const AnyVecOrMat = Union{MatElem, AbstractVecOrMat}
 
 export Cone,
     Points,
+    IncidenceMatrix,
     PolyhedralFan,
     Polyhedra,
     Polyhedron,
@@ -13,6 +14,7 @@ export Cone,
     IncidenceMatrix,
     LinearProgram,
     archimedean_solid,
+    SymmetryFan,
     ambient_dim,
     codim,
     convex_hull,
@@ -74,4 +76,5 @@ include("Polyhedron.jl")
 include("Cone.jl")
 include("LinearProgram.jl")
 include("PolyhedralFan.jl")
+include("SymmetryFan.jl")
 include("Groups.jl")
