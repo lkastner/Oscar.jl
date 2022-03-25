@@ -159,6 +159,7 @@
      "General/architecture.md",
      "General/other.md",
      "General/faq.md",
+     "General/serialization.md",
   ],
 
   "References" => "references.md",
@@ -167,6 +168,7 @@
     "DeveloperDocumentation/new_developers.md",
     "DeveloperDocumentation/styleguide.md",
     "DeveloperDocumentation/documentation.md",
+    "DeveloperDocumentation/serialization.md",
     "Polyhedral Geometry" => [
         "DeveloperDocumentation/SubObjectIterator.md",
     ],
